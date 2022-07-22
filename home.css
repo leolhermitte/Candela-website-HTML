@@ -229,7 +229,7 @@
   padding-top: 2%;
   border-radius: var(--dl-radius-radius-radius4);
 }
-.home-container05 {
+.home-d-e-f-i-n-i-t-i-o-n {
   flex: 0 0 auto;
   width: 100%;
   height: 100px;
@@ -238,7 +238,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.home-container06 {
+.home-container05 {
   top: 0px;
   flex: 0 0 auto;
   right: 0px;
@@ -290,7 +290,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-container07 {
+.home-container06 {
   width: 75%;
   height: 49px;
   display: flex;
@@ -326,7 +326,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-container08 {
+.home-container07 {
   width: 75%;
   height: 49px;
   display: flex;
@@ -369,7 +369,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-container09 {
+.home-container08 {
   width: 75%;
   height: 49px;
   display: flex;
@@ -405,7 +405,7 @@
   align-self: center;
   object-fit: cover;
 }
-.home-container10 {
+.home-container09 {
   width: 75%;
   height: 49px;
   display: flex;
@@ -548,7 +548,7 @@
   .home-l-o-g-o {
     align-self: center;
   }
-  .home-container06 {
+  .home-container05 {
     width: 30%;
   }
 }
@@ -582,7 +582,7 @@
     flex-direction: row;
     justify-content: flex-end;
   }
-  .home-container06 {
+  .home-container05 {
     width: 50%;
   }
   .home-p-r-o-j-e-c-t-s-1 {
@@ -671,8 +671,15 @@
     width: 100%;
     text-align: center;
   }
-  .home-container06 {
+  .home-d-e-f-i-n-i-t-i-o-n {
+    width: 90%;
+    align-self: center;
+  }
+  .home-container05 {
     width: 100%;
+  }
+  .home-p-r-o-j-e-c-t-s-1 {
+    height: 900px;
   }
   .home-l-i-q-u-i-d-p-a-i-n-t {
     width: 100%;
@@ -681,6 +688,11 @@
   .home-o-r-a-g-e {
     width: 100%;
     height: auto;
+    align-self: flex-end;
+    padding-bottom: 0%;
+  }
+  .home-p-r-o-j-e-c-t-s-2 {
+    height: 900px;
   }
   .home-m-a-p-p-i-n-g-f-a-c-a-d-e {
     width: 100%;
@@ -689,6 +701,7 @@
   .home-l-s-d {
     width: 100%;
     height: auto;
+    padding-bottom: 0%;
   }
   .home-subscribe {
     flex-direction: column;
@@ -746,10 +759,12 @@
     height: 488px;
     padding-top: 0%;
   }
-  .home-container05 {
-    padding-bottom: 5%;
+  .home-d-e-f-i-n-i-t-i-o-n {
+    width: 90%;
+    height: 0px;
+    padding-bottom: 50%;
   }
-  .home-container06 {
+  .home-container05 {
     width: 100%;
     padding-bottom: 0%;
   }
@@ -757,6 +772,7 @@
     align-self: flex-start;
   }
   .home-p-r-o-j-e-c-t-s-1 {
+    height: 600px;
     padding-top: 5%;
   }
   .home-l-i-q-u-i-d-p-a-i-n-t {
@@ -772,6 +788,7 @@
     height: auto;
   }
   .home-p-r-o-j-e-c-t-s-2 {
+    height: 600px;
     padding-top: 5%;
   }
   .home-m-a-p-p-i-n-g-f-a-c-a-d-e {
