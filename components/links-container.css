@@ -6,7 +6,12 @@
 }
 .links-container-link {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .links-container-link1 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.links-container-link2 {
+  text-decoration: none;
 }
