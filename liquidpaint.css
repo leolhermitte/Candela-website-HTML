@@ -46,6 +46,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #000000;
 }
 .liquidpaint-m-e-n-u-b-a-r {
   width: 100%;
@@ -197,23 +198,6 @@
   text-decoration: none;
   background-color: #000000;
 }
-.liquidpaint-l-i-g-n-e1 {
-  flex: 0 0 auto;
-  width: 30%;
-  height: 1px;
-  display: flex;
-  align-self: flex-start;
-  margin-top: 2%;
-  align-items: stretch;
-  margin-left: 3%;
-  padding-top: 0px;
-  padding-left: 3%;
-  padding-right: 0px;
-  flex-direction: row;
-  padding-bottom: 0px;
-  justify-content: flex-start;
-  background-color: #f5f1f1;
-}
 .liquidpaint-navlink1 {
   display: contents;
 }
@@ -238,7 +222,7 @@
 }
 .liquidpaint-m-a-i-n {
   width: 100%;
-  height: 910px;
+  height: auto;
   display: flex;
   position: relative;
   align-items: flex-end;
@@ -246,33 +230,35 @@
   justify-content: center;
   background-color: #000000;
 }
-.liquidpaint-t-e-x-t-e-i-m-g {
+.liquidpaint-container4 {
   flex: 0 0 auto;
   width: 90%;
-  height: 50%;
+  height: auto;
   display: flex;
   align-self: center;
   align-items: flex-start;
-}
-.liquidpaint-p-h-o-t-o-t-r-i-o {
-  width: 25%;
-  height: 100%;
-  object-fit: cover;
-  padding-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 .liquidpaint-t-e-x-t-e {
   flex: 0 0 auto;
-  width: 75%;
-  height: 100%;
+  width: 30%;
+  height: auto;
   display: flex;
   position: relative;
+  align-self: flex-start;
   align-items: flex-start;
   flex-direction: column;
 }
-.liquidpaint-text1 {
+.liquidpaint-text01 {
+  color: #ffffff;
+  letter-spacing: 2;
+}
+.liquidpaint-text02 {
   color: #ffffff;
   width: 100%;
   text-align: justify;
+  padding-bottom: 5%;
 }
 .liquidpaint-image1 {
   left: 0px;
@@ -281,13 +267,104 @@
   position: absolute;
   object-fit: cover;
 }
-.liquidpaint-section-separator1 {
-  width: 100%;
-  height: 1px;
+.liquidpaint-row-contact {
+  flex: 0 0 auto;
+  width: 70%;
+  height: 500px;
   display: flex;
+  position: relative;
   align-items: flex-start;
+  padding-left: 5%;
+}
+.liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-1 {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  padding-right: 0%;
+}
+.liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-2 {
+  top: 0px;
+  right: 0px;
+  width: auto;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.liquidpaint-bot {
+  flex: 0 0 auto;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: 0%;
   flex-direction: column;
-  background-color: var(--dl-color-gray-900);
+  padding-bottom: 0%;
+}
+.liquidpaint-row-process {
+  flex: 0 0 auto;
+  width: 80%;
+  height: 10%;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+}
+.liquidpaint-process {
+  color: #ffffff;
+  width: 30%;
+}
+.liquidpaint-contenu {
+  top: 0px;
+  left: 0px;
+  color: #ffffff;
+  right: 0px;
+  width: 30%;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.liquidpaint-rendu {
+  top: 0px;
+  color: #ffffff;
+  right: 0px;
+  width: 30%;
+  position: absolute;
+  text-align: right;
+}
+.liquidpaint-row-process-image {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+.liquidpaint-image2 {
+  top: 0px;
+  left: 0px;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.liquidpaint-image3 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 30%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  object-fit: cover;
+}
+.liquidpaint-image4 {
+  top: 0px;
+  right: 0px;
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
 }
 .liquidpaint-subscribe {
   width: 100%;
@@ -296,7 +373,7 @@
   flex-direction: row;
   justify-content: flex-start;
 }
-.liquidpaint-section-separator2 {
+.liquidpaint-section-separator1 {
   width: 100%;
   height: 1px;
   display: flex;
@@ -308,6 +385,7 @@
   width: 100%;
   display: flex;
   align-items: center;
+  padding-top: 5%;
   flex-direction: column;
   justify-content: center;
   background-color: #0a0a0a;
@@ -356,8 +434,18 @@
   color: #ffffff;
 }
 @media(max-width: 1600px) {
+  .liquidpaint-container {
+    background-color: #000000;
+  }
+  .liquidpaint-m-e-n-u-b-a-r {
+    height: 3%;
+  }
+  .liquidpaint-h-e-a-d-e-r {
+    height: 100%;
+  }
   .liquidpaint-menu-gauche {
     width: 25%;
+    height: 100%;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -383,11 +471,6 @@
     position: relative;
     align-self: flex-start;
   }
-  .liquidpaint-l-i-g-n-e1 {
-    left: 0px;
-    width: 30%;
-    align-self: stretch;
-  }
   .liquidpaint-image {
     top: 0px;
     left: 0px;
@@ -399,30 +482,27 @@
   }
   .liquidpaint-m-a-i-n {
     flex: 0 0 auto;
+    height: auto;
+    align-items: center;
   }
-  .liquidpaint-t-e-x-t-e-i-m-g {
-    top: 0px;
-    left: 0px;
-    right: 0px;
+  .liquidpaint-container4 {
     width: 90%;
-    bottom: 0px;
-    height: 50%;
-    margin: auto;
-    position: absolute;
-  }
-  .liquidpaint-p-h-o-t-o-t-r-i-o {
-    width: 25%;
-    height: 100%;
-    padding-right: 5%;
+    height: auto;
+    align-self: center;
   }
   .liquidpaint-t-e-x-t-e {
-    width: 75%;
-    height: 100%;
-    position: relative;
+    width: 30%;
+    height: auto;
+    position: 0px;
+    align-self: flex-start;
   }
-  .liquidpaint-text1 {
+  .liquidpaint-text01 {
+    color: #ffffff;
+  }
+  .liquidpaint-text02 {
     color: #ffffff;
     width: 100%;
+    padding-bottom: 5%;
   }
   .liquidpaint-image1 {
     left: 0px;
@@ -430,10 +510,116 @@
     bottom: 0px;
     position: absolute;
   }
+  .liquidpaint-row-contact {
+    width: 70%;
+    align-self: center;
+    padding-left: 5%;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-1 {
+    top: 0px;
+    left: 0px;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    padding-right: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-2 {
+    right: 0px;
+    width: 50%;
+    height: auto;
+  }
+  .liquidpaint-bot {
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    bottom: 0px;
+    height: auto;
+    position: static;
+    align-self: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 5%;
+    margin-bottom: 0px;
+    padding-bottom: 5%;
+  }
+  .liquidpaint-row-process {
+    width: 80%;
+    height: 10%;
+    position: relative;
+    align-self: center;
+    align-items: flex-end;
+    flex-direction: row;
+  }
+  .liquidpaint-process {
+    color: #ffffff;
+    width: 30%;
+  }
+  .liquidpaint-contenu {
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+    right: 0px;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+  }
+  .liquidpaint-rendu {
+    top: 0px;
+    color: #ffffff;
+    right: 0px;
+    width: 30%;
+    position: absolute;
+    text-align: right;
+  }
+  .liquidpaint-row-process-image {
+    width: 100%;
+    height: 250px;
+    align-self: flex-start;
+  }
+  .liquidpaint-image2 {
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+  }
+  .liquidpaint-image3 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+  }
+  .liquidpaint-image4 {
+    top: 0px;
+    right: 0px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+  }
 }
 @media(max-width: 1200px) {
+  .liquidpaint-container {
+    background-color: #000000;
+  }
+  .liquidpaint-m-e-n-u-b-a-r {
+    height: 3%;
+  }
+  .liquidpaint-h-e-a-d-e-r {
+    width: 100%;
+    height: 90%;
+    align-items: flex-end;
+  }
   .liquidpaint-menu-gauche {
     width: 50%;
+    height: 100%;
+  }
+  .liquidpaint-container1 {
+    height: 100%;
   }
   .liquidpaint-l-i-g-n-e {
     width: 50%;
@@ -441,74 +627,261 @@
   .liquidpaint-menu-droite {
     right: 0px;
     width: 25%;
+    height: 100%;
     justify-content: flex-end;
+  }
+  .liquidpaint-container3 {
+    height: 100%;
   }
   .liquidpaint-m-a-i-n {
-    height: 800px;
+    height: auto;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
   }
-  .liquidpaint-t-e-x-t-e-i-m-g {
-    width: 90%;
-    height: 50%;
-    position: static;
-  }
-  .liquidpaint-p-h-o-t-o-t-r-i-o {
-    width: 30%;
-    height: 100%;
-    align-self: center;
-    padding-right: 5%;
+  .liquidpaint-container4 {
+    height: auto;
+    position: relative;
+    padding-top: 5%;
+    flex-direction: row;
+    justify-content: center;
   }
   .liquidpaint-t-e-x-t-e {
-    width: 65%;
-    height: 100%;
-    padding-left: 0px;
+    width: 35%;
+    align-self: center;
+    justify-content: flex-start;
   }
-  .liquidpaint-text1 {
+  .liquidpaint-text01 {
+    color: #ffffff;
+    align-self: center;
+  }
+  .liquidpaint-text02 {
     color: #ffffff;
     width: 100%;
     align-self: flex-end;
     text-align: justify;
+    padding-bottom: 10%;
   }
   .liquidpaint-image1 {
     width: 100%;
     align-self: flex-start;
-    padding-top: 2%;
+    padding-top: 0%;
+  }
+  .liquidpaint-row-contact {
+    width: 60%;
+    height: auto;
+    margin: 0px;
+    align-self: center;
+    padding-left: 0%;
+    flex-direction: column;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-1 {
+    width: 50%;
+    height: auto;
+    position: static;
+    align-self: flex-end;
+    padding-right: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-2 {
+    left: 0px;
+    width: 50%;
+    height: auto;
+    position: static;
+    align-self: flex-end;
+  }
+  .liquidpaint-bot {
+    height: auto;
+    position: static;
+    align-self: center;
+    margin-left: 0px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  .liquidpaint-row-process {
+    width: 70%;
+    height: 50px;
+    position: relative;
+    align-self: center;
+    padding-top: 0%;
+  }
+  .liquidpaint-process {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .liquidpaint-contenu {
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+    right: 0px;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+  }
+  .liquidpaint-rendu {
+    top: 0px;
+    color: #ffffff;
+    right: 0px;
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    text-align: right;
+  }
+  .liquidpaint-row-process-image {
+    width: 90%;
+    height: 250px;
+    position: relative;
+    align-self: center;
+    padding-top: 0%;
+  }
+  .liquidpaint-image2 {
+    top: 0px;
+    left: 0px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+  }
+  .liquidpaint-image3 {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    width: 30%;
+    height: 100%;
+    margin: auto;
+    position: absolute;
+  }
+  .liquidpaint-image4 {
+    top: 0px;
+    right: 0px;
+    width: 30%;
+    height: 100%;
+    position: absolute;
+  }
+  .liquidpaint-footer-container {
+    background-color: #000000;
   }
 }
 @media(max-width: 991px) {
+  .liquidpaint-container {
+    background-color: #000000;
+  }
+  .liquidpaint-m-e-n-u-b-a-r {
+    height: 2%;
+  }
   .liquidpaint-menu-gauche {
     width: 50%;
+    height: 100%;
   }
   .liquidpaint-container1 {
     width: 990px;
   }
   .liquidpaint-menu-droite {
     width: 25%;
+    height: 100%;
   }
   .liquidpaint-container3 {
     width: 990px;
   }
-  .liquidpaint-l-i-g-n-e1 {
-    width: 70%;
+  .liquidpaint-m-a-i-n {
+    height: auto;
+    flex-direction: column;
   }
-  .liquidpaint-t-e-x-t-e-i-m-g {
-    height: 70%;
+  .liquidpaint-container4 {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+    flex-direction: column;
   }
-  .liquidpaint-p-h-o-t-o-t-r-i-o {
-    width: 35%;
-    height: 50%;
-    align-self: flex-start;
+  .liquidpaint-t-e-x-t-e {
+    width: 100%;
+    position: static;
+    padding-bottom: 5%;
+  }
+  .liquidpaint-text01 {
+    width: 90%;
+    align-self: center;
+  }
+  .liquidpaint-text02 {
+    width: 90%;
+    height: auto;
+    align-self: center;
+    padding-bottom: 10%;
+  }
+  .liquidpaint-image1 {
+    width: 90%;
+    position: static;
+    align-self: center;
+    padding-top: 0%;
+  }
+  .liquidpaint-row-contact {
+    width: 90%;
+    height: 500px;
+    position: relative;
+    align-self: center;
+    padding-top: 0%;
+    padding-left: 0%;
+    flex-direction: row;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-1 {
+    left: 0px;
+    width: 50%;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-2 {
+    right: 0px;
+    height: auto;
+    position: static;
+    align-self: center;
+  }
+  .liquidpaint-bot {
+    width: 90%;
+    position: static;
+    align-self: center;
+    margin-top: 5%;
+    margin-left: 0px;
+    padding-top: 5%;
+    margin-right: 0px;
+    padding-bottom: 5%;
+  }
+  .liquidpaint-row-process {
+    width: 80%;
+  }
+  .liquidpaint-process {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+  }
+  .liquidpaint-row-process-image {
+    width: 100%;
   }
 }
 @media(max-width: 767px) {
+  .liquidpaint-container {
+    background-color: #000000;
+  }
+  .liquidpaint-m-e-n-u-b-a-r {
+    height: 3%;
+  }
+  .liquidpaint-h-e-a-d-e-r {
+    height: 100%;
+  }
   .liquidpaint-menu-gauche {
     width: 100%;
+    height: 100%;
     position: relative;
   }
   .liquidpaint-container1 {
-    width: 766px;
+    width: 100%;
+    height: 100%;
   }
   .liquidpaint-burger-menu {
     display: flex;
@@ -525,40 +898,98 @@
   }
   .liquidpaint-menu-droite {
     width: 100%;
+    height: 100%;
     position: relative;
   }
   .liquidpaint-container3 {
-    width: 766px;
+    width: 100%;
+    height: 100%;
   }
   .liquidpaint-links-container1 {
     display: none;
   }
   .liquidpaint-m-a-i-n {
-    height: 1200px;
+    height: auto;
     position: 0px;
     align-self: center;
     justify-content: flex-start;
   }
-  .liquidpaint-t-e-x-t-e-i-m-g {
-    height: 100%;
-    flex-direction: column;
-  }
-  .liquidpaint-p-h-o-t-o-t-r-i-o {
+  .liquidpaint-container4 {
     width: 100%;
-    height: 35%;
+    height: auto;
+    margin: 0px;
     align-self: flex-start;
-    padding-right: 0%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    flex-direction: column;
   }
   .liquidpaint-t-e-x-t-e {
     width: 100%;
-    height: 63%;
+    height: auto;
+    position: static;
+    align-self: flex-start;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-text01 {
+    width: 90%;
+    text-align: center;
+  }
+  .liquidpaint-text02 {
+    width: 90%;
+    align-self: center;
+    padding-bottom: 10%;
+  }
+  .liquidpaint-image1 {
+    left: 0px;
+    right: 0px;
+    width: 90%;
+    margin: auto;
+  }
+  .liquidpaint-row-contact {
+    width: 90%;
+    height: auto;
+    align-self: center;
+    padding-top: 5%;
+    flex-direction: row;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-1 {
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    position: static;
+    align-self: flex-start;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-2 {
+    flex: initial;
+    width: 50%;
+    height: 100%;
+    margin: 0px;
+    position: static;
+  }
+  .liquidpaint-bot {
+    width: 90%;
+    height: auto;
+    position: 0px;
+    align-self: center;
+    margin-left: 0px;
+  }
+  .liquidpaint-process {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
   }
   .liquidpaint-subscribe {
     flex-direction: column;
   }
 }
 @media(max-width: 320px) {
+  .liquidpaint-m-e-n-u-b-a-r {
+    height: 1%;
+  }
   .liquidpaint-menu-gauche {
     width: 100%;
     height: 85px;
@@ -595,34 +1026,87 @@
     width: 478px;
     position: relative;
   }
-  .liquidpaint-l-i-g-n-e1 {
-    width: 50%;
-    padding-left: 10%;
-  }
   .liquidpaint-image {
     width: 10%;
   }
   .liquidpaint-m-a-i-n {
-    height: 1200px;
+    height: auto;
     align-items: center;
+    padding-bottom: 10%;
     justify-content: center;
   }
-  .liquidpaint-t-e-x-t-e-i-m-g {
-    top: 0px;
-    height: 100%;
-    position: static;
-    flex-direction: column;
-  }
-  .liquidpaint-p-h-o-t-o-t-r-i-o {
+  .liquidpaint-container4 {
     width: 100%;
-    align-self: flex-start;
-    padding-right: 0%;
-    padding-bottom: 5%;
+    height: auto;
+    position: 0px;
+    align-self: center;
+    padding-top: 5%;
+    flex-direction: column;
   }
   .liquidpaint-t-e-x-t-e {
     width: 100%;
-    height: 65%;
-    align-self: flex-start;
+    height: auto;
+    position: static;
+    align-self: center;
+    padding-bottom: 10%;
+  }
+  .liquidpaint-text02 {
+    padding-bottom: 10%;
+  }
+  .liquidpaint-image1 {
+    bottom: 0px;
+    position: static;
+    padding-top: 0%;
+  }
+  .liquidpaint-row-contact {
+    height: auto;
+    position: static;
+    align-self: center;
+    padding-top: 0%;
+    flex-direction: column;
+    padding-bottom: 10%;
+    justify-content: flex-start;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-1 {
+    width: 100%;
+    height: 50%;
+    position: static;
+    padding-right: 0%;
+    padding-bottom: 0%;
+  }
+  .liquidpaint-p-l-a-n-c-h-e-c-o-n-t-a-c-t-2 {
+    width: 100%;
+    bottom: 0px;
+    height: 50%;
+    position: static;
+    align-self: center;
+  }
+  .liquidpaint-bot {
+    width: 90%;
+    position: static;
+    align-self: center;
+    margin-left: 0px;
+  }
+  .liquidpaint-row-process {
+    width: 100%;
+  }
+  .liquidpaint-process {
+    top: 0px;
+    left: 0px;
+    color: #ffffff;
+    bottom: 0px;
+    margin: auto;
+    position: absolute;
+    align-self: center;
+  }
+  .liquidpaint-contenu {
+    top: 0px;
+    width: 30%;
+    bottom: 0px;
+    margin: auto;
+  }
+  .liquidpaint-rendu {
+    width: 30%;
   }
   .liquidpaint-footer {
     position: relative;
