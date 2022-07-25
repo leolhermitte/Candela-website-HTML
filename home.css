@@ -18,6 +18,8 @@
 
 @media(max-width: 1200px) {
   .links-container-links-container {
+    width: 100%;
+    height: 100%;
     background-color: #000000;
   }
   .links-container-link {
@@ -436,7 +438,7 @@
 .home-text11 {
   color: #ffffff;
 }
-.home-text12 {
+.home-text13 {
   top: 0px;
   color: #ffffff;
   right: 0px;
@@ -469,11 +471,11 @@
   align-self: center;
   align-items: flex-end;
 }
-.home-text13 {
+.home-text14 {
   color: #ffffff;
   align-self: flex-end;
 }
-.home-text14 {
+.home-text15 {
   color: #ffffff;
   right: 0px;
   bottom: 0px;
