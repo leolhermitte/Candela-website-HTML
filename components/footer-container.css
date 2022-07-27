@@ -36,14 +36,10 @@
   margin-right: var(--dl-space-space-doubleunit);
   text-decoration: none;
 }
-.footer-container-link1 {
-  display: contents;
-}
 .footer-container-icon2 {
   fill: #ffffff;
   width: 24px;
   height: 24px;
-  text-decoration: none;
 }
 .footer-container-copyright-container {
   display: flex;
@@ -56,7 +52,7 @@
   height: 24px;
   margin-right: var(--dl-space-space-doubleunit);
 }
-.footer-container-link2 {
+.footer-container-link1 {
   fill: #ffffff;
   color: #ffffff;
 }
