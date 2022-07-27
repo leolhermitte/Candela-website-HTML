@@ -63,17 +63,21 @@
   width: 100%;
   height: auto;
   display: flex;
+  position: relative;
   align-items: flex-start;
+  padding-top: 5%;
   justify-content: flex-start;
 }
 .m-e-n-u-b-a-r-menu-gauche {
+  left: 0px;
   width: 25%;
+  bottom: 0px;
   height: 94px;
   display: flex;
   padding: var(--dl-space-space-doubleunit);
-  position: relative;
+  position: absolute;
   max-width: var(--dl-size-size-maxcontent);
-  align-self: center;
+  align-self: flex-start;
   align-items: center;
   flex-direction: row;
   justify-content: center;
@@ -166,10 +170,10 @@
   display: contents;
 }
 .m-e-n-u-b-a-r-image {
-  top: 0px;
   left: 0px;
   right: 0px;
   width: auto;
+  bottom: 0px;
   height: 100%;
   margin: auto;
   position: absolute;
@@ -177,12 +181,12 @@
   text-decoration: none;
 }
 .m-e-n-u-b-a-r-menu-droite {
-  top: 0px;
   right: 0px;
   width: 25%;
-  height: 94px;
+  bottom: 0px;
+  height: 100%;
   display: flex;
-  padding: var(--dl-space-space-doubleunit);
+  padding: var(--dl-space-space-unit);
   position: absolute;
   max-width: var(--dl-size-size-maxcontent);
   align-self: center;
@@ -223,23 +227,26 @@
     height: 3%;
   }
   .m-e-n-u-b-a-r-h-e-a-d-e-r {
-    height: auto;
+    height: 100px;
     padding-top: 0%;
     background-color: #000000;
   }
   .m-e-n-u-b-a-r-container {
     height: auto;
+    align-self: flex-end;
+    align-items: center;
   }
   .m-e-n-u-b-a-r-menu-gauche {
     width: 25%;
     height: 100%;
-    padding-top: 0px;
+    align-items: center;
+    padding-top: 0%;
     padding-left: 0px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 0%;
   }
   .m-e-n-u-b-a-r-container1 {
-    height: auto;
+    height: 100%;
   }
   .m-e-n-u-b-a-r-links-container {
     position: relative;
@@ -262,11 +269,19 @@
     padding-top: 0%;
   }
   .m-e-n-u-b-a-r-menu-droite {
+    top: 0px;
     width: 25%;
+    bottom: 0px;
+    height: 100%;
+    margin: auto;
+    align-items: center;
     padding-top: 0px;
     padding-left: 0px;
     padding-right: 0px;
     padding-bottom: 0px;
+  }
+  .m-e-n-u-b-a-r-container3 {
+    height: 100%;
   }
   .m-e-n-u-b-a-r-links-container1 {
     position: relative;
