@@ -118,7 +118,6 @@
 .m-e-n-u-b-a-r-close-menu {
   flex: 0 0 auto;
   width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   height: 100px;
   display: flex;
   position: relative;
@@ -126,7 +125,6 @@
   flex-direction: column;
 }
 .m-e-n-u-b-a-r-container2 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   position: relative;
 }
@@ -458,16 +456,6 @@
     position: absolute;
     align-self: flex-start;
     background-color: #000000;
-  }
-  .m-e-n-u-b-a-r-close-menu {
-    border-color: #000000;
-    border-style: hidden;
-    border-width: 0px;
-  }
-  .m-e-n-u-b-a-r-container2 {
-    border-color: #000000;
-    border-style: hidden;
-    border-width: 0px;
   }
   .m-e-n-u-b-a-r-icon2 {
     fill: #ffffff;
