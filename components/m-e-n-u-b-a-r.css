@@ -436,6 +436,9 @@
     margin-left: 4%;
     background-color: #000000;
   }
+  .m-e-n-u\ b-a-r-icon {
+    fill: #ffffff;
+  }
   .m-e-n-u\ b-a-r-mobile-menu {
     top: 0px;
     left: 0px;
@@ -444,6 +447,7 @@
     background-color: #000000;
   }
   .m-e-n-u\ b-a-r-icon2 {
+    fill: #ffffff;
     border-color: #ffffff;
     border-width: 1px;
   }
