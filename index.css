@@ -459,6 +459,16 @@
     align-self: flex-start;
     background-color: #000000;
   }
+  .m-e-n-u-b-a-r-close-menu {
+    border-color: #000000;
+    border-style: hidden;
+    border-width: 0px;
+  }
+  .m-e-n-u-b-a-r-container2 {
+    border-color: #000000;
+    border-style: hidden;
+    border-width: 0px;
+  }
   .m-e-n-u-b-a-r-icon2 {
     fill: #ffffff;
   }
