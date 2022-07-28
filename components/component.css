@@ -1,0 +1,15 @@
+.component-container {
+  display: flex;
+  position: relative;
+}
+.component-icon {
+  width: 24px;
+  height: 24px;
+}
+@media(max-width: 320px) {
+  .component-icon {
+    fill: #ffffff;
+    border-color: #ffffff;
+    border-width: 1px;
+  }
+}
